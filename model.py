@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 
 # Load dataset
-df = pd.read_csv('framingham_heart_disease (1).csv')
+df = pd.read_csv('heart_disease.csv')
 
 # Data Cleaning
 df = df.drop(['education'], axis=1)
